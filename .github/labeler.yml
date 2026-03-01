@@ -1,0 +1,21 @@
+bug:
+  - any:
+    - head-branch: ['fix/*', 'bugfix/*', 'hotfix/*']
+  - any:
+    - title: ['.*\b(bug|fix|error|crash|broken)\b.*']
+      
+feature:
+  - any:
+    - head-branch: ['feat/*', 'feature/*']
+  - any:
+    - title: ['.*\b(feat|feature|add|new)\b.*']
+
+documentation:
+  - any:
+    - changed-files:
+      - any-glob-to-any-file: ['*.md', 'docs/**']
+
+dependencies:
+  - any:
+    - changed-files:
+      - any-glob-to-any-file: ['package.json', 'package-lock.json']
