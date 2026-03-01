@@ -66,7 +66,7 @@ Builder → github-master → push main → GitHub Actions → GitHub Pages (~2m
 - **One-Way Doors**: Irreversible actions require human approval
 - **SYSTEM BLOCKLIST**: Hardcoded in each SOUL.md
 
-## 23 Agent Archetypes
+## 22 Agent Archetypes
 | Agent | Archetyp | Domäne |
 |-------|----------|--------|
 | Wanda | The Commander | Supreme Orchestrator |
@@ -91,4 +91,3 @@ Builder → github-master → push main → GitHub Actions → GitHub Pages (~2m
 | Crypto-Trader | The Analyst | Trading |
 | Update-Strategist | The Watcher | Intelligence |
 | Wanda-Voice | The Voice | Voice Interface |
-| Main | The Relay | Routing |

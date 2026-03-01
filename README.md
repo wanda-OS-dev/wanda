@@ -30,7 +30,7 @@ WANDA is a **workspace-aware, multi-agent AI framework** designed for autonomous
 - **Work while you sleep** — cron-based autonomous operations
 - **Learn over time** — bi-temporal memory with knowledge graphs
 
-Start with a single agent. Scale to a 23-agent autonomous corporation.
+Start with a single agent. Scale to a 22-agent autonomous corporation.
 
 ## Philosophy
 
