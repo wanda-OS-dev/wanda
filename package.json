@@ -1,0 +1,48 @@
+{
+  "name": "wanda-framework",
+  "version": "0.1.0",
+  "description": "WANDA — Workspace Aware Neural Distributed Architecture",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "wanda": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/gateway/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "vitest run tests/e2e",
+    "test:integration": "vitest run tests/integration",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "autonomous",
+    "multi-agent",
+    "llm",
+    "openai",
+    "anthropic",
+    "whatsapp",
+    "telegram"
+  ],
+  "author": "WandaSystems",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wanda-OS-dev/wanda.git"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0",
+    "tsx": "^4.0.0",
+    "eslint": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
